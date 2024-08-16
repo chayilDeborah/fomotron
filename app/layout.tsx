@@ -1,8 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Open_Sans } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const open = Open_Sans({  weight: ["400"],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap', });
 
 export const metadata: Metadata = {
   title: 'FOMOTRON',
@@ -16,7 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={open.className}><link rel="icon" href="/favicon.png" sizes="any" />
+        {children}</body>
     </html>
   )
 }
