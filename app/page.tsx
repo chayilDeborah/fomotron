@@ -11,9 +11,9 @@ const Home = () => {
           <div className='content'>
             <section className='lg:max-w-[1440px] w-[95%] mx-auto lg:w-full'>
            <Homepage />
-           <About />
-           <Utilities />
-           <Community />
+           {/* <About /> */}
+           {/* <Utilities /> */}
+           {/* <Community /> */}
             </section>
           </div>
 

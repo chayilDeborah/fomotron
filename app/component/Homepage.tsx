@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import blob from '../assets/blob.png'
+import navlogo from '../assets/navlogo.png'
 
 const Homepage = () => {
     return (
         <main>
+            <Image src={navlogo} alt='logo' className='lg:w-[250px] mt-[40px] lg:ml-[60px] ' /> 
             <div className='mx-auto text-white pt-[27px] '>
                 <div className='mx-auto flex justify-center close'>
                     <div className='mx-auto flex justify-center mt-[50px] lg:w-[289px] homebtn lg:mx-[0px] mx-auto w-[240px] h-[39px] rounded-[12px] text-[#FFFFFF] p-[0.7px]' data-aos="fade-up">
@@ -15,7 +17,7 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className='mt-[29px] close relative z-20 flex-col items-center justify-center'>
-                    <h1 className='lg:text-[93.7px] text-[58.7px] leading-[63.8px] lg:leading-[88.8px] -tracking-[2%] font lg:w-full text-center ' data-aos="zoom-out">Trade | Scan | Degen</h1>
+                    <h1 className='lg:text-[93.7px] text-[37.7px] leading-[63.8px] lg:leading-[88.8px] -tracking-[2%] font lg:w-full text-center ' data-aos="zoom-out">Trade | Scan | Degen</h1>
                     <div className='mx-auto flex justify-center mt-[50px] '>
                         <Link href='https://wa.me/+212694033851'>
                             <button className='mx-auto flex justify-center   w-[183px] homebtn lg:mx-[0px] mx-auto h-[38px] rounded-[18px] text-[#FFFFFF] p-[1px]'>
