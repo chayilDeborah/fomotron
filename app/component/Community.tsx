@@ -5,14 +5,16 @@ import twitter from '../assets/twitter.svg'
 import telegram from '../assets/telegram.svg'
 import whatsapp from '../assets/whatsapp.svg'
 import Link from 'next/link'
+import blob from '../assets/blob.png'
 
 const Community = () => {
   return (
     <main>
        <div className='lg:max-w-[1440px] w-[93%] mx-auto flex justify-center lg:w-full '>
             <div>
-                <Image src={gojo} alt='gojo' className='mt-[50px] lg:-mt-[30px] mx-auto '  data-aos="fade-up" data-duration="1400"/>
-                <h1  className='lg:text-[150px] text-[80px] leading-[90px]  -tracking-[2%] font text-[#D9DAD9] text-center lg:mt-[220px] mt-[80px] lg:mb-[110px] mb-[58px] ' data-aos="fade-up" data-duration="1600">Community</h1>
+            <Image src={blob} alt='blob' className='mt-[20px] lg:-mt-[30px] mx-auto '  data-aos="fade-up" data-duration="1400"/>
+
+                <h1  className='lg:text-[150px] text-[50px] leading-[90px]  -tracking-[2%] font text-[#D9DAD9] text-center lg:mt-[220px] mt-[80px] lg:mb-[110px] mb-[58px] ' data-aos="fade-up" data-duration="1600">Community</h1>
                 <div className='lg:flex w-fit mx-auto mb-[80px] lg:mb-[145px]'>
                     <Link href='https://x.com/thegojobot_sol'>
                     <button className='border-[1px] border-[#22d70a] flex w-[235px] h-[68px] rounded-[12px]  px-[15.5px] '  data-aos="fade-up" data-duration="1800">

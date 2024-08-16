@@ -8,7 +8,7 @@ const About = () => {
         <main>
             <div className='lg:flex  mt-[80px]  lg:mt-[190px] justify-center '>
                 <div className=' flex lg:flex-col flex-col w-fit my-auto'>
-                    <h1 className='lg:text-[120px] text-[100px] leading-[90px] lg:leading-[120px] -tracking-[2%] font lg:w-[456px] text-[#D9DAD9] text-center lg:mt-[45px] ' data-aos="fade-out" >About Us</h1>
+                    <h1 className='lg:text-[120px] text-[64px] leading-[70px] lg:leading-[120px] -tracking-[2%] font lg:w-[456px] text-[#D9DAD9] text-center lg:mt-[45px] ' data-aos="fade-out" >About Us</h1>
                     <Image src={sakuna} alt='sakuna' className='mx-auto lg:ml-auto lg:-mr-[38px] lg:-mt-[130px] mt-[30px] close' data-aos="zoom-in" />
                 </div>
                 <div className='border-[0.5px] border-[#22d70a] rounded-[24px] lg:rounded-[50px] p-[18px] lg:p-[40px] bg-[#00967B] lg:w-[729px] lg:h-[558px] lg:ml-[80px] '>

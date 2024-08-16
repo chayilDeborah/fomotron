@@ -7,7 +7,7 @@ const Utilities = () => {
         <main className='w-full relative mx-auto '>
             <div className='lg:max-w-[1440px] w-[93%] mx-auto flex justify-center lg:w-full '>
                         <div className='lg:mt-[140px] mt-[100px]  '>
-                            <h1 className='lg:text-[200px] text-[100px] leading-[90px] lg:leading-[180px] -tracking-[2%] font text-[#D9DAD9] text-center ' data-aos="fade-down">FAQs</h1>
+                            <h1 className='lg:text-[200px] text-[65px] leading-[90px] lg:leading-[180px] -tracking-[2%] font text-[#D9DAD9] text-center ' data-aos="fade-down">FAQs</h1>
                             <div className='mt-[37px] grid grid-cols-1 lg:grid-cols-3 gap-[30px] lg:gap-[62px] mb-[50px] '>
                                 <div className='lg:w-[369px] lg:h-[378px] w-[330px]  round '  data-aos="fade-up" data-duration="1400" >
                                     <div className='bg-[#036C5B] rounded-t-[17px]  '>

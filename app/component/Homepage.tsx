@@ -7,7 +7,7 @@ import navlogo from '../assets/navlogo.png'
 const Homepage = () => {
     return (
         <main>
-            <Image src={navlogo} alt='logo' className='lg:w-[250px] mt-[40px] lg:ml-[60px] ' /> 
+            <Image src={navlogo} alt='logo' className='lg:w-[250px] w-[200px] mt-[40px] lg:ml-[60px] ' /> 
             <div className='mx-auto text-white pt-[27px] '>
                 <div className='mx-auto flex justify-center close'>
                     <div className='mx-auto flex justify-center mt-[50px] lg:w-[289px] homebtn lg:mx-[0px] mx-auto w-[240px] h-[39px] rounded-[12px] text-[#FFFFFF] p-[0.7px]' data-aos="fade-up">
