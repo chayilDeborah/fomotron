@@ -2,6 +2,7 @@ import React from 'react'
 import Homepage from './component/Homepage'
 import About from './component/About'
 import Utilities from './component/FAQ'
+import Community from './component/Community'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
            <Homepage />
            <About />
            <Utilities />
+           <Community />
             </section>
           </div>
 
