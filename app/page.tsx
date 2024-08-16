@@ -6,7 +6,7 @@ const Home = () => {
     <main className='w-full  mx-auto overflow-hidden  '>
         <section className='image w-full lg:mt-[0px] lg:h-[1000px]'>
           <div className='content'>
-            <section className='lg:max-w-[1280px] w-[95%] mx-auto lg:w-full'>
+            <section className='lg:max-w-[1440px] w-[95%] mx-auto lg:w-full'>
            <Homepage />
             </section>
           </div>
