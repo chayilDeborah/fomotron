@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'NicoMoji';
+  src: url('/fonts/NicoMoji-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .image {
   /* background-color: #22A9D8; */
@@ -14,3 +21,16 @@
 .content {
   display: grid;
 }
+.font {
+  font-family: 'NicoMoji', sans-serif;
+}
+.hometext {
+  background-image: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+
+  color: transparent;
+  background-clip: text; 
+}
+.homebtn {
+
+  background: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+    }
