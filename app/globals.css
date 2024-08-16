@@ -25,12 +25,31 @@
   font-family: 'NicoMoji', sans-serif;
 }
 .hometext {
-  background-image: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+  background: linear-gradient(135deg, #22D70A 0%, #A3FF57 50%, #086C04 100%);
 
   color: transparent;
   background-clip: text; 
 }
 .homebtn {
 
-  background: linear-gradient(90deg, #FDFF98 1.61%, #FF9E99 37.95%, #FFCC00 74.3%, #FF0004 110.64%);
+  background: linear-gradient(135deg, #22D70A 0%, #A3FF57 50%, #086C04 100%);
     }
+
+    .smalltext{
+
+      background: linear-gradient(205.6deg, #D9DAD9 16.74%, #737473 64.66%);
+  
+      color: transparent;
+      background-clip: text; 
+    }
+    .close {
+      z-index: 1000;
+      /* padding-right: 40px; */
+      position: relative;
+    }
+    .close1 {
+      z-index: 500;
+      /* padding-right: 40px; */
+      position: relative;
+    }
+  
