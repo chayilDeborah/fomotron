@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import blob from '../assets/blob.png'
+import blobb from '../assets/blobb.png'
 import navlogo from '../assets/navlogo.png'
 
 const Homepage = () => {
@@ -28,7 +28,7 @@ const Homepage = () => {
                         </Link>
                         {/* </div> */}
                     </div>
-                    <Image src={blob} alt='blob' className='mx-auto w-[650px] ' data-aos='fade-up' data-duration="1800"/>
+                    <Image src={blobb} alt='blob' className='mx-auto w-[650px] ' data-aos='fade-up' data-duration="1800"/>
                 </div>
             </div>
         </main>
