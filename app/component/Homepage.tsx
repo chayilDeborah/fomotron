@@ -28,7 +28,7 @@ const Homepage = () => {
                         </Link>
                         {/* </div> */}
                     </div>
-                    <Image src={blobb} alt='blob' className='mx-auto w-[650px] ' data-aos='fade-up' data-duration="1800"/>
+                    <Image src={blobb} alt='blob' className='mx-auto w-[650px] lg:mt-[45px] ' data-aos='fade-up' data-duration="1800"/>
                 </div>
             </div>
         </main>
