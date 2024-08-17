@@ -9,7 +9,7 @@ const open = Open_Sans({  weight: ["400"],
 
 export const metadata: Metadata = {
   title: 'FOMOTRON',
-  description: '',
+  description: 'A Solana chain WhatsApp Bot ',
 }
 
 export default function RootLayout({
